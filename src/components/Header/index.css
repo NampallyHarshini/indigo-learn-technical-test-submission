@@ -1,0 +1,133 @@
+.navbar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #511aad;
+  height: 70px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1110px;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0px;
+}
+@media screen and (max-width: 767px) {
+  .navbar-content {
+    flex-direction: column;
+  }
+}
+
+.navbar-mobile-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-mobile-container {
+    display: none;
+  }
+}
+
+.menu-icon {
+  margin-right: 6px;
+  margin-top: 10px;
+}
+.websiteName {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+}
+
+.cart-button {
+  border: none;
+  padding: 12px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-button {
+    display: none;
+  }
+}
+
+.cart {
+  height: 70px;
+  width: 20px;
+}
+
+.navbar-large-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1110px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-large-container {
+    display: none;
+  }
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.nav-menu-item {
+  font-family: 'Roboto';
+  margin: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.login-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 16px;
+  color: #511aad;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .login-desktop-btn {
+    display: none;
+  }
+}
