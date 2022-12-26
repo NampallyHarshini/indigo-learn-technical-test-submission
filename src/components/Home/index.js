@@ -7,10 +7,11 @@ const Home = () => (
     <Header />
     <div className="home-container">
       <div className="home-content">
-        <h1 className="home-heading">Get Ready to be a Global CA</h1>
+        <h1 className="home-heading">Become ACCA in 18 months</h1>
         <p className="home-description">
-          Acquire the ACCA qualification to join the league of Global <br />
-          Accounting & Finance Professionals
+          Acquire globally recognized accountancy qualification,ACCA(also called as Global CA),and <br />
+          get placed in top MNCs & Big4s,Begin ACCA prep with 1FlN now
+   
         </p>
         <div className="button-container">
           <button type="button" className="download-button">
@@ -30,6 +31,13 @@ const Home = () => (
         <div className="input-container">
           <input
             type="text"
+            className="phone-input-field"
+            placeholder="Phone Number"
+          />
+        </div>
+         <div className="input-container">
+          <input
+            type="text"
             className="email-input-field"
             placeholder="Email ID"
           />
@@ -37,10 +45,18 @@ const Home = () => (
         <div className="input-container">
           <input
             type="text"
-            className="phone-input-field"
-            placeholder="Phone Number"
+            className="CurrentQualification-input-field"
+            placeholder="Current Qualification"
           />
         </div>
+        <div className="input-container">
+          <input
+            type="text"
+            className="intrested in-input-field"
+            placeholder="Intrested in"
+          />
+        </div>
+
         <button type="submit" className="call-button">
           Request Call Back
         </button>
