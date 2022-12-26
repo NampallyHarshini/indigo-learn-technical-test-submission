@@ -1,0 +1,213 @@
+.AccaPage-container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+    color: black;
+  }
+}
+
+.line {
+  background-color: #511aad;
+  width: 100px;
+  height: 10px;
+  border-radius: 8px;
+  padding: 3px;
+}
+.card-container {
+  background-color: lavender;
+  height: 30vh;
+  width: 100%;
+  padding: 19px;
+  border-radius: 8px;
+  box-shadow: black;
+}
+.whyAcca-container {
+  margin-bottom: 100px;
+}
+.card-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-items-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.card-item {
+  background-color: white;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 7px;
+  width: 30vh;
+}
+
+@media screen and (min-width: 768px) {
+  .card-item {
+    height: 20vh;
+    width: 50vh;
+    background-color: white;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 7px;
+  }
+}
+
+.item-container {
+  height: 30vh;
+  width: 60vh;
+  background-color: #511aad;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .item-container {
+    margin-left: 90px;
+    margin-bottom: 30px;
+  }
+}
+
+.list-items-container {
+  background-color: #e6f6ff;
+  height: 40vh;
+}
+.list-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list-item {
+  list-style-type: none;
+  color: black;
+  padding: 3px;
+}
+.start-time-heading {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: black;
+}
+
+.spanElement {
+  color: blue;
+}
+
+.note {
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: #511aad;
+  padding-left: 40px;
+  font-weight: 500;
+}
+
+.eligibility-card-container {
+  background-color: lavender;
+  height: 80vh;
+  width: 100%;
+  padding-bottom: 19px;
+  box-shadow: black;
+}
+
+.eligibility-point {
+  padding-left: 40px;
+}
+
+.item {
+  color: black;
+  padding: 5px;
+}
+
+.enroll-button {
+  background-color: #511aad;
+  color: white;
+  margin-top: 10px;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+.learn_acca {
+  height: 50vh;
+}
+
+.silverHeading {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+
+.silver-logo {
+  color: white;
+  font-size: 10px;
+  font-family: 'ROBOTO';
+  border: 1px solid white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 6px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.silver-container {
+  background-color: red;
+  height: 9vh;
+  width: 27vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 550px;
+}
+@media screen and (max-width: 767px) {
+  .silver-container {
+    margin-left: 25px;
+  }
+}
+.eligibility-point {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.eligibility-heading {
+  font-size: 25px;
+  padding-left: 48px;
+}
+
+.icon {
+  height: 80px;
+  width: 60px;
+}
+.card-name {
+  font-size: 20px;
+}
+.start-time-container {
+  margin-top: 70px;
+}
+.acca-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
