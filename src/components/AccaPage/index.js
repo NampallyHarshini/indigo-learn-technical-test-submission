@@ -36,54 +36,44 @@ const Home = () => (
       </div>
       <div className="card-item">
         <h1>Exemptions</h1>
-        <p>Available</p>
+        <p>Upto 9 papers</p>
       </div>
     </div>
     <div className="whyAcca-container">
-      <h1 className="heading">Why ACCA @ 1FIN?</h1>
+      <h1 className="heading">Why Choose Us?</h1>
       <hr className="line" />
       <div className="card-items-container">
         <div className="item-container">
           <div className="acca-logo-container">
             <IoBulbOutline className="icon" />
-            <h1 className="card-name">Conceptual</h1>
+            <h1 className="card-name">Expert Faculty</h1>
           </div>
           <div className="list-items-container">
-            <ul className="list-items">
-              <li className="list-item">Regular Live Classes</li>
-              <li className="list-item">Expert Faculty</li>
-              <li className="list-item">Exam Oriented Content</li>
-              <li className="list-item">Dedicated Discussions Forms</li>
-              <li className="list-item">Continous Support</li>
-            </ul>
-          </div>
+<p> Our Faculty are subject matter</br>
+      expertise with practical experience.</br>
+      they believe in #studentFirst </br>
+      principle</p>
+        </div>
         </div>
         <div className="item-container">
           <BsPeopleFill className="icon" />
-          <h1 className="card-name">Comprehensive</h1>
+          <h1 className="card-name">Complete Success Package</h1>
           <div className="list-items-container">
-            <ul className="list-items">
-              <li className="list-item">Exhaustive Q & A Bank</li>
-              <li className="list-item">1000s of MCQs for practice</li>
-              <li className="list-item">Tests at regular intervals</li>
-              <li className="list-item">Mock Exams</li>
-              <li className="list-item">Analysis of Answer Sheets</li>
-            </ul>
-          </div>
+<p> Leading Exam Prep Destination with</br>
+      Video Clases,Live sessions,Doubt</br>
+      resolution Forums,E-notes from</br>
+      Kalpan,MCQs,Practice tests,</br>
+      Webinars</p>
+        </div>
         </div>
         <div className="item-container">
           <AiOutlineSafety className="icon" />
-          <h1 className="card-name">Career Oriented</h1>
+          <h1 className="card-name">Placements</h1>
           <div className="list-items-container">
-            <ul className="list-items">
-              <li className="list-item">Business Communication</li>
-              <li className="list-item">Resume Building</li>
-              <li className="list-item">Negotiation Skills</li>
-              <li className="list-item">Mock Interviews</li>
-              <li className="list-item">Placement Services</li>
-            </ul>
-          </div>
-        </div>
+        <p>Resume building workshops,mock </br>
+      interviews and placement drives will</br>
+      help you impress the top employers</br>
+      and get the dream job.</p>
       </div>
     </div>
     <div className="start-time-container">
@@ -125,7 +115,7 @@ const Home = () => (
               <li className="item">Financial Accounting (FA)</li>
             </ul>
             <button type="button" className="enroll-button">
-              Enroll Now
+              3 papers
             </button>
           </div>
         </div>
@@ -141,7 +131,7 @@ const Home = () => (
               <li className="item">Financial Management (FM)</li>
             </ul>
             <button type="button" className="enroll-button">
-              Enroll Now
+              6 papers
             </button>
           </div>
         </div>
@@ -153,18 +143,20 @@ const Home = () => (
               <li className="item">SBL - Strategic Business Leader</li>
               <li className="item">SBR - Strategic Business Reporting</li>
               <li className="item">Two out of the following</li>
+              <li className="item">Advanced Financial Management (AFM)</li>
               <li className="item">Advanced Performance Management (APM)</li>
               <li className="item">Advanced Taxation (ATX)</li>
+              <li className="item">Advanced Audit and Assurance (AAA)</li>
             </ul>
             <button type="button" className="enroll-button">
-              Enroll Now
+              4 papers
             </button>
           </div>
         </div>
       </div>
     </div>
     <div className="eligibility-card-container">
-      <h1 className="heading">Placement Assistance</h1>
+      <h1 className="heading"> 100% Placement Assistance</h1>
       <hr className="line" />
       <h1 className="eligibility-heading">Resume Building</h1>
       <p className="eligibility-point">
