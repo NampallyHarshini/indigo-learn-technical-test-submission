@@ -9,7 +9,7 @@ const Header = () => (
       <div className="navbar-mobile-container">
         <h1 className="websiteName">
           <GiHamburgerMenu className="menu-icon" />
-          Indigo Learn
+          IndigoLearn
         </h1>
         <button type="button" className="cart-button">
           <HiShoppingCart className="cart" />
@@ -18,15 +18,12 @@ const Header = () => (
       <div className="navbar-large-container">
         <h1 className="websiteName">
           <GiHamburgerMenu className="menu-icon" />
-          Indigo Learn
+          IndigoLearn
         </h1>
         <ul className="nav-menu">
           <li className="nav-menu-item">BUY COURSES</li>
-
+           <li className="nav-menu-item">BUY Books</li>
           <li className="nav-menu-item">PROGRAMS</li>
-
-          <li className="nav-menu-item">SCHOLARSHIPS</li>
-
           <li className="nav-menu-item">FREE RESOURCES</li>
         </ul>
         <button type="button" className="login-desktop-btn">
