@@ -1,0 +1,42 @@
+.learn-item {
+  flex-grow: 1;
+  max-width: 380px;
+  border: 1px solid lightgrey;
+  background-color: #f1f8fe;
+  margin: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.learn-item:hover {
+  transform: scale(1.05);
+  transition: 0.2s linear;
+}
+.learn-header {
+  height: 70px;
+  background-color: #32127a;
+  color: white;
+  width: 106%;
+  position: relative;
+  left: -11px;
+}
+.learn-header h1 {
+  font-size: 28px;
+}
+.learn-main {
+  height: 300px;
+  text-align: left;
+  padding: 20px 50px;
+  font-size: 18px;
+}
+.learn-footer {
+  height: 50px;
+  background-color: #32127a;
+  color: white;
+  width: 106%;
+  position: relative;
+  left: -11px;
+}
+.learn-footer h1 {
+  font-size: 20px !important;
+}
