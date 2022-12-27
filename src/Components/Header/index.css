@@ -1,0 +1,23 @@
+.header {
+  background-color: #32127a;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-ul-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  margin-top: 20px;
+}
+.nav-ul-container li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3 linear;
+}
+
+.btn-color {
+  color: #32127a;
+  font-size: 18px;
+}
