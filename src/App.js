@@ -1,4 +1,4 @@
-import Home from "./Home/index";
+import Home from "./page/Home";
 
 const App = () => (
   <div>
